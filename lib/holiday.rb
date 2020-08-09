@@ -50,10 +50,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-   holiday = final_holiday.join(" ")
-
-      supply = supply.join(", ")
-      puts "  #{holiday}: #{supply}"
+   
   #holiday_hash.each do |seasons, holidays|
     #puts "#{seasons}: #{holidays}"
   # iterate through holiday_hash and print items such that your readout resembles:
